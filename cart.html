@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/addtocart.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+    <title>Cart</title>
+</head>
+
+<body class="body-cart">
+    <header class="header">
+        <div class="header__section">
+            <div class="header__item headerLogo">
+                <a href="/index.html">sneakerfy</a>
+            </div>
+            <ul class="navbar">
+                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+                <li class="nav-item-active">
+                    <a class="nav-link" href="#">Brands </a>
+                    <ul class="dropdown">
+                        <li><a href="/nike.html"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/nike.png"
+                                    alt="nike" />Nike</a></li>
+                        <li><a href="/adidas.html"><img width="20" height="20"
+                                    src="https://img.icons8.com/ios-filled/50/adidas-trefoil.png"
+                                    alt="adidas-trefoil" />Adidas</a></li>
+                        <li><a href="#"><img width="20" height="20" src="https://img.icons8.com/ios/50/air-jordan.png"
+                                    alt="air-jordan" />Jordan</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="cart"><img width="30" height="30"
+                    src="https://img.icons8.com/ios-glyphs/30/shopping-cart--v1.png" alt="shopping-cart--v1" />
+                <p id="count">0</p>
+            </div>
+            <a href="/log-in.html" class="header__item signIn">Sign In</a>
+        </div>
+    </header>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>My cart</p></div>
+            <div id="cartItem">Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot-container">
+            <div class="foot-block1">
+                <p class="foot-desc">buy a good one</p>
+                <p class="foot-logo headerLogo">sneakerfy</p>
+            </div>
+            <div class="foot-block2">
+                <p class="p-foot footer-address">7мкр, 23 стр, дом Атлант</p>
+                <p class="p-foot footer-number">0500492820,0507090117</p>
+                <a href="info@codifylab.com">
+                    <p class="p-foot footer-mail">info@codifylab.com</p>
+                </a>
+                <div class="foot-mediablock">
+                    <a href="" class="mediaelement instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    <a href="" class="mediaelement youtube"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+                    <a href="" class="mediaelement telegram"><i class="fa-brands fa-telegram" style="color: #ffffff;"></i></a>
+                    <a href="" class="mediaelement tiktok"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="/js/cart.js"></script>
+</body>
+
+</html>

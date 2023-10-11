@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Log In</title>
+	<link rel="stylesheet" href="/css/log-ing.css">
+</head>
+<body class="body-log-in">
+	<div class="container">
+		<h1 class="label"><a href="/index.html">sneakerfy</a></h1>
+		<form class="login_form" action="/index.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Email</div>
+			<input placeholder="Введите почту" autocomplete="off" type="email" name="email">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input placeholder="Введите пароль" type="password" name="password" id="password">
+			<input type="checkbox" id="checkbox">
+			<div id="pass_error">Please fill up your Password</div>
+			<a href="#"><button onclick="clearStorage()" type="submit">Login</button></a>
+		</form>
+	</div>	
+	<script src="/js/log-in.js"></script>
+</body>
+</html>

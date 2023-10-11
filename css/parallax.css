@@ -1,0 +1,22 @@
+.parallax{
+    background-image: url('https://wallpaperset.com/w/full/4/c/a/447419.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.parallax-p{
+    color: #fff;
+    font-size: calc(75px + (100 - 75) * ((100vw - 420px) / (1440 - 420)));
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 15%; */
+}
+/* .parallax-test{
+    font-size: 100px;
+} */
